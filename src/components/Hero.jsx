@@ -11,12 +11,13 @@ export default function Hero({ onStart }) {
   <img 
     src="/Logo NIO.png"  // 👈 
     alt="NIO Solutions"
-    style={{
-      height: '72px',    // 👈 AJUSTA ESTO
-      width: 'auto',
-      display: 'block',
-      margin: '0 auto',
-    }}
+   style={{
+  maxWidth: '400px',    // Máximo 400px
+  width: '100%',        // Se adapta al contenedor
+  height: 'auto',
+  display: 'block',
+  margin: '0 auto',
+}}
   />
 </div>
 
