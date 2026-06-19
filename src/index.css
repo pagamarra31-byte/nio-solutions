@@ -27,6 +27,21 @@ html, body, #root {
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+/* ── Fondo principal ── */
+body {
+  background-color: #0E0E11; /* 👈 REEMPLAZA CON EL COLOR DE TU LOGO */
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+body {
+  background-color: #0E0E11; /* Color de tu logo */
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  color: #ffffff; /* Texto blanco para contraste */
+}
 
 .nio-silver-text {
   background: linear-gradient(135deg, #c0c0c0 0%, #e8e8e8 40%, #a0a0a0 60%, #d4d4d4 100%);
