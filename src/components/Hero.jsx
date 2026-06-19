@@ -6,15 +6,19 @@ export default function Hero({ onStart }) {
       <BgNodes />
       <div className="nio-content" style={{ textAlign: 'center' }}>
 
-        {/* Logo NIO */}
-        <div style={{ marginBottom: '16px' }}>
-          <span style={{
-            fontSize: '72px',
-            fontWeight: '800',
-            letterSpacing: '-4px',
-            lineHeight: 1,
-          }} className="nio-silver-text">NIO</span>
-        </div>
+{/* Logo NIO */}
+<div style={{ marginBottom: '16px' }}>
+  <img 
+    src="/Logo NIO.png"  // 👈 
+    alt="NIO Solutions"
+    style={{
+      height: '72px',    // 👈 AJUSTA ESTO
+      width: 'auto',
+      display: 'block',
+      margin: '0 auto',
+    }}
+  />
+</div>
 
         <p style={{
           fontSize: '13px',
