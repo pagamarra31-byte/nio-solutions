@@ -12,8 +12,8 @@ export default function Hero({ onStart }) {
     src="/Logo NIO.png"  // 👈 
     alt="NIO Solutions"
    style={{
-  maxWidth: '400px',    // Máximo 400px
-  width: '100%',        // Se adapta al contenedor
+  maxWidth: '250px',    // Máximo 400px
+  width: '80%',        // Se adapta al contenedor
   height: 'auto',
   display: 'block',
   margin: '0 auto',
